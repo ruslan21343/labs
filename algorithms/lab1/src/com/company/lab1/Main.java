@@ -1,4 +1,4 @@
-package com.company;
+package com.company.lab1;
 
 import java.util.Scanner;
 
@@ -13,6 +13,10 @@ public class Main {
 
         int multiplication = a * b;
         int number = Math.floorDiv(multiplication, c);
+
+        for (int i = 0; i < 10; i++) {
+            number++;
+        }
 
         if (number > 100) {
             System.out.println("Such a nice number");
